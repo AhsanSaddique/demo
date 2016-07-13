@@ -1,0 +1,72 @@
+<section class="sec1">
+
+    <p class="header-sec1"><strong>Get started by finding the best doctors and their available appointment
+        times</strong></p>
+
+    <select class="cities glyphicon glyphicon-map-marker">
+        <option ng-repeat="city in cities">{{city.name}}</option>
+    </select>
+
+
+    <select class="cities">
+        <option ng-repeat="specialty in specialty">{{specialty.name}}</option>
+    </select>
+
+    <h2>Date = {{ today | date : "dd.MM.y" }}</h2>
+
+
+    <div class="search glyphicon glyphicon-search">
+        <button type="button" ng-click="search">Search </button>
+    </div>
+
+    <!--<p> ng-model="doctor"</p>
+    <h1>{{name}}</h1>-->
+
+
+    <select class="cities">
+        <option ng-repeat="doctor in doctor">{{doctor.firstName}}</option>
+        <option ng-repeat="doctor in doctor">{{doctor.email}}</option>
+       <option ng-repeat="doctor in doctor">{{doctor.phoneNumber}}</option>
+
+   </select>
+
+
+    <select ng-model="selectedName" ng-options=" x for x in names" Location>
+    </select>
+
+
+
+
+
+
+
+
+    <div class="instruc">
+        <h1>How it Works?</h1>
+
+        <h4>Our simplified appointment booking workflow lets you book appointments with ease.</h4>
+        <td>
+            <li>Search for the doctors in a specific specialty.
+            </li>
+            <li>Make an informed decision by picking the doctor that has the right reviews and is available at a
+                convenient
+                time for you.
+            </li>
+            <li> Just click on an open time to book an appointment.</li>
+            <li> Wait for a confirmation SMS or call for appointment confirmation.</li>
+            <li>Get notifications and reminders.</li>
+            <li> Leave a review based on your experience.</li>
+
+    </div>
+<div class="heart-img">
+    <img  src="http://localhost:63342/Pliro.com/app/heart.png"   alt="">
+</div>
+
+
+
+
+
+
+
+</section>
+

@@ -1,0 +1,171 @@
+/* app css stylesheet */
+
+
+.pliro
+{
+color: white;
+  font-size: 60px;
+}
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+.headers
+{
+
+
+background-color: deepskyblue;
+  color: #1f6381;
+  font-size: 24px;
+  padding-bottom: 35px;
+  margin-bottom: 0;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  float: right;
+}
+.dropdown:hover{
+color: white;
+
+}
+.dropdown>li>a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown-content {
+
+  margin-left: -42px;
+  margin-top: 20px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  background-color: deepskyblue;
+  padding: 2px 12px;
+  text-decoration: none;
+  display: block;
+  color: #205f82;
+  border-radius: 20px;
+}
+
+.dropdown-content a:hover {background-color: #b9def0}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+/*Classes of View 1*/
+
+
+.sec1
+{
+  background-color: #f1f1f1;
+  padding-top: 26px;
+  margin-top: -9px;
+}
+.header-sec1
+{
+  margin-left: 111px;
+  font-size: 19px;
+  margin-bottom: 26px;
+
+}
+
+.cities
+{
+  margin-left: 144px;
+  float: left;
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  border-radius: 20px;
+  background-color: skyblue;
+  color: black;
+  font-size: 19px;
+  margin-left: 117px;
+}
+.cities:hover
+{
+  padding-left: 20px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  border-radius: 20px;
+}
+
+.instruc
+{
+  margin-left: 128px;
+  width: 38%;
+
+}
+
+.heart-img
+{
+  margin-top: -205px;
+  margin-left: 867px;
+  /* float: right; */
+  width: 11%;
+}
+
+.search
+{
+  font-size: 28px;
+  width: 14%;
+  float: right;
+  margin: -61px 15px 10px auto;
+  float: right;
+}
+
+
+.doc-class
+{
+  font-size: 50px;
+  padding-left: 87px;
+  margin-top: 2px;
+  background-color: deepskyblue;
+  padding-top: 49px;
+  padding-bottom: 25px;
+  color: white;
+}
+
